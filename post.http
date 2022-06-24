@@ -1,0 +1,19 @@
+@baseurl = http://localhost:3000
+
+
+POST {{baseurl}}/signup
+Content-Type: application/json
+
+{
+    "email" : "signup@gmail.com",
+    "user" : "lilyofDeath"
+}
+
+###
+POST {{baseurl}}/login
+Content-Type: application/json
+
+{
+    "email" : "login@gmail.com",
+    "user" : "lilyofDeath"
+}

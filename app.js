@@ -6,12 +6,13 @@ const app = express();
 
 // middleware
 app.use(express.static('public'));
+app.use(express.json());
 
 // view engine
 app.set('view engine', 'ejs');
 
 // database connection
-const dbURI = 'mongodb+srv://Medusa:@Gorgon.com@neninja.21z0dwy.mongodb.net';
+const dbURI = 'mongodb+srv://spiderlily:yf68fjCIzUPctr1d@neninja.21z0dwy.mongodb.net';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
   .then((result) => app.listen(3000))
   .catch((err) => console.log(err));
