@@ -6,7 +6,7 @@ Content-Type: application/json
 
 {
     "email" : "signup@gmail.com",
-    "user" : "lilyofDeath"
+    "password" : "lilyofDeath"
 }
 
 ###
@@ -15,5 +15,5 @@ Content-Type: application/json
 
 {
     "email" : "login@gmail.com",
-    "user" : "lilyofDeath"
+    "password" : "lilyofDeath"
 }

@@ -12,7 +12,7 @@ app.use(express.json());
 app.set('view engine', 'ejs');
 
 // database connection
-const dbURI = 'mongodb+srv://spiderlily:yf68fjCIzUPctr1d@neninja.21z0dwy.mongodb.net';
+const dbURI = 'mongodb+srv://spiderlily:yf68fjCIzUPctr1d@neninja.21z0dwy.mongodb.net/node-jwt-auth';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
   .then((result) => app.listen(3000))
   .catch((err) => console.log(err));
