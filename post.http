@@ -5,8 +5,8 @@ POST {{baseurl}}/signup
 Content-Type: application/json
 
 {
-    "email" : "signup@gmail.com",
-    "password" : "lilyofDeath"
+    "email" : "",
+    "password" : ""
 }
 
 ###
